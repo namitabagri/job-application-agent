@@ -1,0 +1,21 @@
+Aarav Sharma
+Gurugram, India | aarav.sharma@example.com | github.com/aarav-sharma
+
+SUMMARY
+Machine Learning Engineer with 6 years of experience building and deploying NLP and LLM systems.
+
+SKILLS
+Python, PyTorch, Transformers, LLMs, RAG, LangChain, FastAPI, Docker, Azure, vLLM, SQL
+
+EXPERIENCE
+Senior ML Engineer, Acme AI (2022-present)
+- Built a RAG-based support assistant serving 50k users/month, cutting ticket volume by 32%.
+- Deployed fine-tuned LLMs with vLLM, reducing inference latency by 45%.
+- Led a team of 4 engineers on an MLOps platform (Docker, Azure, CI/CD).
+
+ML Engineer, DataWorks (2019-2022)
+- Developed NLP classification models (BERT) with 94% F1 for document routing.
+- Built FastAPI microservices handling 2M requests/day.
+
+EDUCATION
+B.Tech Computer Science, 2019

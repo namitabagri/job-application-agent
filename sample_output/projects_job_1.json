@@ -1,0 +1,30 @@
+{
+  "job_id": 1,
+  "skill_gaps": ["Kubernetes", "MLflow", "LLM evaluation"],
+  "projects": [
+    {
+      "name": "RAG Service with Automated LLM Evaluation",
+      "description": "Build a FastAPI RAG service over a public document set, track experiments in MLflow and score answer quality with an automated LLM evaluation harness. Mirrors the JD's RAG + evaluation responsibilities.",
+      "skills_demonstrated": ["Retrieval-Augmented Generation", "LLM evaluation", "MLflow", "FastAPI", "Docker"],
+      "gaps_closed": ["MLflow", "LLM evaluation"],
+      "deliverables": ["Public GitHub repo with README", "Evaluation report (faithfulness, relevance)", "Dockerised demo"],
+      "estimated_effort": "1-2 weeks",
+      "resume_bullets": [
+        "Built a Retrieval-Augmented Generation (RAG) service with FastAPI and Docker, improving answer faithfulness by [X%] on a [N]-question evaluation set",
+        "Implemented LLM evaluation harness and tracked [N] experiments in MLflow to select the best retriever and prompt configuration"
+      ]
+    },
+    {
+      "name": "Low-Latency LLM Serving on Kubernetes",
+      "description": "Deploy a vLLM-served open-source model on a local Kubernetes cluster with autoscaling and a CI/CD pipeline, then benchmark latency under load.",
+      "skills_demonstrated": ["Kubernetes", "vLLM", "Docker", "CI/CD", "model serving"],
+      "gaps_closed": ["Kubernetes"],
+      "deliverables": ["Helm chart or manifests", "GitHub Actions pipeline", "Load-test results"],
+      "estimated_effort": "1 week",
+      "resume_bullets": [
+        "Deployed an LLM with vLLM on Kubernetes with autoscaling, sustaining [N] requests/sec at p95 latency under [X] ms",
+        "Automated build and deploy with a CI/CD pipeline, reducing release time to [X] minutes"
+      ]
+    }
+  ]
+}

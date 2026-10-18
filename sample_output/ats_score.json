@@ -1,0 +1,19 @@
+{
+  "note": "Illustrative example: hypothetical JD + sample_data/sample_resume.txt, scored by jobagent.ats (proxy, not a real ATS).",
+  "original_resume": {
+    "score": 53,
+    "missing_required": [
+      "Retrieval-Augmented Generation",
+      "Kubernetes",
+      "MLflow",
+      "LLM evaluation"
+    ]
+  },
+  "tailored_resume": {
+    "score": 97,
+    "missing_required": [],
+    "missing_other": [
+      "experiment tracking"
+    ]
+  }
+}

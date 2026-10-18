@@ -1,0 +1,10 @@
+{
+  "job_id": 1, "company": "ExampleCorp (hypothetical)", "title": "Senior Machine Learning Engineer",
+  "link": "https://example.com/careers/senior-ml-engineer", "jd_source": "fetched",
+  "experience_level": "5+ years / Senior",
+  "jd_summary": "ExampleCorp is hiring a Senior ML Engineer to build and operate LLM-powered products. The role covers Retrieval-Augmented Generation (RAG) systems, model serving at scale, and rigorous LLM evaluation, working closely with product teams.",
+  "responsibilities": ["Design and ship RAG pipelines", "Serve LLMs with low latency", "Build LLM evaluation frameworks", "Operate services on Kubernetes", "Mentor engineers"],
+  "required_skills": ["Python", "PyTorch", "LLMs", "Retrieval-Augmented Generation", "FastAPI", "Docker", "Kubernetes", "MLflow", "LLM evaluation"],
+  "nice_to_have_skills": ["vLLM", "Azure", "LangChain"],
+  "ats_keywords": ["CI/CD", "MLOps", "model serving", "low latency", "experiment tracking", "RAG", "production", "mentoring"]
+}

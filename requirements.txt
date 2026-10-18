@@ -1,0 +1,18 @@
+# ---- Agent framework ----
+deepagents>=0.7.0          # LangChain Deep Agents (planning, sub-agents, virtual file system)
+langchain-openai>=1.0.0    # ChatOpenAI wrapper (LLM used by the agent)
+tavily-python>=0.5.0       # Web search API (finds live job postings)
+
+# ---- UI & data ----
+streamlit>=1.46.0        # UI (colored badges need 1.46+)
+pandas>=2.0.0              # Jobs table / CSV export
+
+# ---- Resume parsing & document export ----
+pypdf>=5.0.0               # Read PDF resumes
+python-docx>=1.1.0         # Read DOCX resumes + write cover_letters.docx
+
+# ---- Config ----
+python-dotenv>=1.0.0       # Load API keys from .env
+
+# ---- Dev / testing ----
+pytest>=8.0.0
